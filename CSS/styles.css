@@ -224,7 +224,7 @@ Nav
 /* footer */
 
 .footer {
- background: var(--offblack);
+ background: #444444;
  color: var(--mainwhite);
  text-transform: uppercase;
  text-align: center;
@@ -335,8 +335,85 @@ Nav
   text-align: center;
   font-size: 3rem;
   color: var(--mainwhite);
-  
  }
 }
 
 /* end of test */
+
+/* Contact form */
+
+.contact-data {
+ padding: 20px;
+}
+
+.contact-text h1 {
+ font-size: 3rem;
+ text-transform: lowercase;
+}
+
+.contact-p {
+ font: bolder;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form {
+ font-family: 'Open Sans', sans-serif;
+ ;
+}
+
+.contact-form label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+ width: 100%;
+ border: 1px solid #dddd;
+ padding: 10px;
+}
+
+.contact-form textarea {
+ margin-bottom: 10px;
+ height: 200px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+ outline: none;
+ border-color: var(--primarycolor);
+}
+
+/* End OF Contact Form */
+
+/* contact info */
+
+.contact-info {
+ background: var(--offblack);
+ color: var(--mainwhite);
+ height: 26.5vh;
+}
+
+.container-contact {
+ display: flex;
+ text-align: center;
+ padding: 20px;
+ justify-content:space-around
+ 
+
+}
+.contact-card{
+ text-align: center;
+}
+
+.contact-card i {
+ font-size: 3rem;
+ margin-bottom: 10px;
+}
+.contact-card p{
+margin-right: 5px;
+}
+
+.contact-card h3 {
+ padding-bottom: 20px;
+}
+
+/* End OF contact info */

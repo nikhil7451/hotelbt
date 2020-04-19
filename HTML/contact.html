@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../CSS/styles.css" />
     <!-- Font Awesome -->
     <!-- Font-awesome -->
-    <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css" />
+    <link rel="stylesheet" href="../fontawesome-free-5.9.0-web/css/all.css" />
     <title>Hotel HBT</title>
   </head>
 
@@ -27,9 +27,65 @@
           <h1>HBT</h1>
           <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a  href="./about.html">About</a></li>
-            <li><a  class="current" href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a class="current" href="./contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
+
+    <!-- Contact Form -->
+    <section class="contact-data">
+      <div class="contact-text">
+        <h1><span class="color-change">Contact</span>&nbsp; us</h1>
+        <p class="contact-p">Please fill out the form below contact us</p>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" class="form-data" id="name" name="name" />
+          <label for="email">Email</label>
+          <input type="email" class="form-data" id="email" name="email" />
+          <label for="msg">Message</label>
+          <textarea name="text" id="msg" class="fornm-data"></textarea>
+          <button class="main-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact-information -->
+    <section class="contact-info">
+      <div class="container-contact">
+        <!-- contact-card -->
+        <article class="contact-card">
+          <i class="fas fa-hotel"></i>
+          <h3>location</h3>
+          <p>50 main mandi house</p>
+        </article>
+        <!-- End Of contact-card -->
+        <!-- contact-card -->
+        <article class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email Address</h3>
+          <p>goelnikhil42@gmail.com</p>
+        </article>
+        <!-- End Of contact-card -->
+        <!-- contact-card -->
+        <article class="contact-card">
+          <i class="fas fa-phone"></i>
+          <h3>Phone Number</h3>
+          <p>8851045977</p>
+        </article>
+        <!-- End Of contact-card -->
+      </div>
+    </section>
+    <!-- End OF Contact-information -->
+    <!-- End of Contact form -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>hotel bt &copy; 2020,&nbsp; All rights reserved</p>
+    </footer>
+    <!-- End Of Footer -->
+  </body>
+</html>
